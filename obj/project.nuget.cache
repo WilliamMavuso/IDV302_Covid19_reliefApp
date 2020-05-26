@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oj2eiIAnPkAjx99LASi+gqO+W+rIP0vj95vDR1g9V6bbzl8gk3qWpvPFUcWgRxntjqg4HrCzMhddnQl1qhtieA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Judy\\source\\repos\\covid19_reliefApp\\covid19_reliefApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Judy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
