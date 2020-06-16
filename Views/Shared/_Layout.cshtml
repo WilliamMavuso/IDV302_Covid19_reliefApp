@@ -9,31 +9,38 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">covid19_reliefApp</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+        <div class="nav-con">
+            <a class="logo-con"  asp-area="" asp-controller="Home" asp-action="Index"></a>
+            <!-- logo-con -->
+            <div class="user-info-con">
+                <div class="registration-con">
+                    <div class="spacer"></div>
+                    <a class="sign-up"  asp-area="" asp-controller="" asp-action=""> Sign Up /</a>
+                    <a class="sign-in" asp-area="" asp-controller="" asp-action=""> Sign In</a>
                 </div>
+
+                <div class="profile-con">
+                    <div class="spacer-2"></div>
+                    <div class="picture-con">
+                        <a><img src="https://image.flaticon.com/icons/svg/847/847969.svg" class="rounded-circle z-depth-0">
+                        </a>
+                    </div>
+                </div>
+
+
             </div>
-        </nav>
+            <!-- user-info-con -->
+        </div>
+        <!-- nav-con -->
+
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+
+
+
+
             @RenderBody()
-        </main>
-    </div>
+ 
+
 
     <footer class="border-top footer text-muted">
         <div class="container">
